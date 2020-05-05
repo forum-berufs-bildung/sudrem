@@ -1,2 +1,4 @@
-## SQL create DB
+-- SQL create DB
+-- DB sudrem
+
 
