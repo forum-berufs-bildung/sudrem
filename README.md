@@ -8,5 +8,9 @@ Datenbank: maria db
 
 lang: java
 
-dependencies: jsoup,mysql-connector
+dependencies: 
+	jsoup
+	mysql-connector
+
+
 
