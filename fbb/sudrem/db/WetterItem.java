@@ -14,7 +14,7 @@ import java.security.Timestamp;
  */
 public class WetterItem {
 
-	
+	/* daten sind public */
 	public String stadt;
 	public Timestamp datum;
 	public int temp;
