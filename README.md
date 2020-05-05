@@ -7,3 +7,6 @@ page: wetter.com
 Datenbank: maria db
 
 lang: java
+
+dependencies: jsoup,mysql-connector
+
