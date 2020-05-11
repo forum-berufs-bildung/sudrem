@@ -1,6 +1,6 @@
 package fbb.sudrem.db;
 
-import java.security.Timestamp;
+import java.sql.Timestamp;
 
 /**
  * 
@@ -18,4 +18,11 @@ public class WetterItem {
 	public String stadt;
 	public Timestamp datum;
 	public int temp;
+	
+	
+	public String toString() {
+		
+		return "[" + stadt + "|" + temp + "|" 
+				+ SudremDB.ts2Str(datum) + "]";
+	}
 }
