@@ -3,6 +3,7 @@
  */
 package fbb.sudrem.db;
 
+import java.sql.SQLException;
 import java.util.ArrayList;
 
 /**
@@ -21,7 +22,7 @@ public interface IntDbSudrem {
 	 * @param wetter welches in DB geschreiben werden soll
 	 * @return autoincremented ID
 	 */
-	int insert(WetterItem wetter);
+	int insert(WetterItem wetter) throws SQLException;
 	
 	/**
 	 * ausslesen der daten einer Stadt aus der TBL.
@@ -29,5 +30,5 @@ public interface IntDbSudrem {
 	 * @param stadt als String
 	 * @return ArrayList mit WetterItems
 	 */
-	ArrayList<WetterItem> select(String stadt);
+	ArrayList<WetterItem> select(String stadt) throws SQLException;
 }
