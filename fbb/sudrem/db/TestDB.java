@@ -35,7 +35,8 @@ public class TestDB {
 		
 		WetterItem wi = new WetterItem();
 		wi.stadt = "BLN";
-		wi.temp = 14;
+		// temp geht von -5 bis 33 Grad
+		wi.temp = (int) (Math.random()*38)-5;
 		wi.datum = new Timestamp(System.currentTimeMillis());
 		
 		db.insert(wi);
