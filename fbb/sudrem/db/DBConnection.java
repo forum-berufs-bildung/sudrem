@@ -3,7 +3,9 @@ package fbb.sudrem.db;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-import com.mysql.cj.jdbc.MysqlDataSource;
+import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
+
+//import com.mysql.cj.jdbc.MysqlDataSource;
 
 /**
  * Holds the credis for connection to DB and the connection
