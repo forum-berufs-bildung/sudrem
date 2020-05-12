@@ -1,0 +1,5 @@
+## Website Crawler for WeatherApp ##
+
+this Crawler works with Jsoup as parser and selector method
+
+fetch the Daily max Grad from wetter.com 
