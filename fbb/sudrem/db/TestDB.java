@@ -13,7 +13,7 @@ public class TestDB {
 		db.dbhost = "fbb.dasgoldeneclo.de";
 		db.dbuser = "sudrem";
 		db.dbname = "sudrem";
-		db.dbpass = "2SJ..dsafoiew,,+++67342vaee";
+		db.dbpass = "";
 
 		
 		try {
@@ -39,7 +39,7 @@ public class TestDB {
 		wi.temp = (int) (Math.random()*38)-5;
 		wi.datum = new Timestamp(System.currentTimeMillis());
 		
-		db.insert(wi);
+		//db.insert(wi);
 		
 		ArrayList<WetterItem> list = db.select("BLN");
 		
