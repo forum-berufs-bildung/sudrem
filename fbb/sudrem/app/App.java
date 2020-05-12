@@ -15,10 +15,10 @@ public class App {
       /* Erzeugung eines neuen Frames mit dem 
         Titel "Wetter vom FBB" */             
      JFrame meinFrame = new JFrame("Wetter vom FBB");
-     /* Wir setzen die Breite und die Höhe 
+     /* Wir setzen die Breite und die Hï¿½he 
         unseres Fensters auf 200 Pixel */          
      meinFrame.setSize(800,800);
-     /* Hinzufügen einer einfachen Komponente  */
+     /* Hinzufï¿½gen einer einfachen Komponente  */
      meinFrame.add(new PaintClass());
      // Wir lassen unseren Frame anzeigen
      meinFrame.setVisible(true);
