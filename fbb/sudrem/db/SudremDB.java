@@ -21,8 +21,8 @@ public class SudremDB extends DBConnection implements IntDbSudrem {
 		dbhost = "fbb.dasgoldeneclo.de";
 		dbuser = "sudrem";
 		dbname = "sudrem";
-		dbpass = "2SJ..dsafoiew,,+++67342vaee";
 				
+		dbpass = "2SJ..dsafoiew,,+++67342vaee";
 
 		super.open();
 	}

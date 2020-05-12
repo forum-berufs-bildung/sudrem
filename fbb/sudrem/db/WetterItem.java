@@ -2,6 +2,8 @@ package fbb.sudrem.db;
 
 import java.sql.Timestamp;
 
+import org.jsoup.select.Elements;
+
 /**
  * 
  * @author id

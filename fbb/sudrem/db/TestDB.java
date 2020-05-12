@@ -4,6 +4,8 @@ import java.sql.SQLException;
 import java.sql.Timestamp;
 import java.util.ArrayList;
 
+import fbb.sudrem.crawler.Crawler;
+
 public class TestDB {
 
 	public static void main(String[] args) throws SQLException {
@@ -32,16 +34,17 @@ public class TestDB {
 		*/
 		
 		SudremDB db = new SudremDB();
-		
+		Crawler tempt = new Crawler();
 		WetterItem wi = new WetterItem();
 		wi.stadt = "BLN";
 		// temp geht von -5 bis 33 Grad
-		wi.temp = (int) (Math.random()*38)-5;
+		System.out.println(tempt.maxGrad + "." );
+		wi.temp = Integer.parseInt(tempt.maxGrad);
 		wi.datum = new Timestamp(System.currentTimeMillis());
 		
 		db.insert(wi);
 		
-		ArrayList<WetterItem> list = db.select("BLN");
+		ArrayList<WetterItem> list = db.select("Berlin");
 		
 		for ( WetterItem w : list ) {
 			System.out.println(w.toString());
