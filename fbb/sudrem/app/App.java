@@ -5,11 +5,13 @@ import java.sql.SQLException;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
+/**
+ * 
+ *	graphisches frontend zu sudrem 
+ *
+ */
 public class App {
 
- 
-
-    
     public static void main(String[] args) throws SQLException {
     
       /* Erzeugung eines neuen Frames mit dem 
@@ -22,12 +24,7 @@ public class App {
      meinFrame.add(new PaintClass());
      // Wir lassen unseren Frame anzeigen
      meinFrame.setVisible(true);
-    	
-     
-     
-     
      
     }
-
 }
 
