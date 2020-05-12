@@ -1,6 +1,15 @@
+<<<<<<< HEAD
+/IntDbSudrem.class
+/WetterItem.class
+/package-info.class
+/SudremDB.class
+/TestDB.class
+/DBConnection.class
+=======
 /DBConnection.class
 /IntDbSudrem.class
 /SudremDB.class
 /TestDB.class
 /WetterItem.class
 /package-info.class
+>>>>>>> branch 'master' of https://github.com/forum-berufs-bildung/sudrem.git
